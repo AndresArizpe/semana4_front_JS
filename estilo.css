@@ -1,0 +1,323 @@
+.fondo{
+    background-color: rgb(95, 1, 1);
+}
+.centro{
+    background-color: red;
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    left: 400px;
+    top: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5%;
+}
+
+.circulo{
+    border-radius: 100%;
+
+}
+.azul{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 204, 255);
+    position: absolute;
+    left: 430px;
+    top: 30px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.rojo{
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(163, 1, 1);
+    position: absolute;
+    left: 500px;
+    top: 30px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.amarillo{
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(197, 211, 0);
+    position: absolute;
+    left: 550px;
+    top: 30px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.verde{
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(13, 161, 0);
+    position: absolute;
+    left: 600px;
+    top: 30px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.gris{
+    border-radius: 5%;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: gray;
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    top: 100px;
+    left: 450px;
+}
+
+.negro{
+    border-radius: 5%;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(253, 253, 253);
+    position: absolute;
+    width: 375px;
+    height: 325px;
+    top: 112px;
+    left: 463px;
+}
+
+.azul1{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 11, 161);
+    position: absolute;
+    left: 430px;
+    top: 475px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.verde1{
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    width: 100px;
+    height: 20px;
+    background-color: rgb(6, 189, 0);
+    position: absolute;
+    left: 500px;
+    top: 475px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.verde2{
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    width: 100px;
+    height: 20px;
+    background-color: rgb(6, 189, 0);
+    position: absolute;
+    left: 540px;
+    top: 475px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-top: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+}
+
+.amarillo1{
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    width: 100px;
+    height: 20px;
+    background-color: rgb(219, 243, 3);
+    position: absolute;
+    left: 650px;
+    top: 475px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.amarillo2{
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    width: 100px;
+    height: 20px;
+    background-color: rgb(219, 243, 3);
+    position: absolute;
+    left: 690px;
+    top: 475px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-top: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+}
+.amarillo3{
+    border-radius: 5%;
+    width: 350px;
+    height: 50px;
+    background-color: rgb(219, 243, 3);
+    position: absolute;
+    left: 430px;
+    top: 525px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.rojo1{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(163, 1, 1);
+    position: absolute;
+    left: 800px;
+    top: 525px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.pokebola{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+} 
+
+.palo1{
+    position: absolute;
+    height: 175px;
+    width: 2px;
+    background-color: black;
+    left: 175px;
+}
+.palo2{
+    position: absolute;
+    height: 2px;
+    width: 375px;
+    background-color: black;
+    top: 175px;
+}
+
+.tipo{
+    position: absolute;
+    height: 20px;
+    width: auto;
+    left: 200px;
+    top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tipo1{
+    position: absolute;
+    height: 20px;
+    width: auto;
+    left: 230px;
+    top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nombre{
+    position: absolute;
+    height: 20px;
+    width: auto;
+    left: 200px;
+    top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.hp{
+    position: absolute;
+    top: 160px;
+    left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ataque{
+    position: absolute;
+    top: 175px;
+    left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}.defensa{
+    position: absolute;
+    top: 190px;
+    left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}.ataqueesp{
+    position: absolute;
+    top: 205px;
+    left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}.defensaesp{
+    position: absolute;
+    top: 220px;
+    left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}.velocidad{
+    position: absolute;
+    top: 235px;
+    left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hp1{
+    position: absolute;
+    top: 160px;
+    left: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ataque1{
+    position: absolute;
+    top: 175px;
+    left: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+}.defensa1{
+    position: absolute;
+    top: 190px;
+    left: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+}.ataqueesp1{
+    position: absolute;
+    top: 205px;
+    left: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+}.defensaesp1{
+    position: absolute;
+    top: 220px;
+    left: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+}.velocidad1{
+    position: absolute;
+    top: 235px;
+    left: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.movimiento1{
+    position: absolute;
+    top: 220px;
+    left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.movimiento2{
+    position: absolute;
+    top: 220px;
+    left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.movimiento3{
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.movimiento4{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.altura{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 125px;
+    left: 200px;
+}
+.peso{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 110px;
+    left: 200px;
+}
+
+.altura1{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 125px;
+    left: 250px;
+}
+.peso1{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 110px;
+    left: 250px;
+}
